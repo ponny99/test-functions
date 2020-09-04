@@ -1,8 +1,8 @@
 function getPalindrome(str){
-    if(str === 1) return false;
+    if(str < 0) return true;
     else{
-        return true;
+        return false;
     }
     return str.split('').sort().join('');
 }
-console.log(getPalindrome("racecar"));
+console.log(getPalindrome="racecar");
